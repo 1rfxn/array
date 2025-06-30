@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="array.css">
+<body id="container">
+    <div id="firdiv">
+    <h1 id="head">Create Array here...</h1>
+    <input type="number" id="number" placeholder="Enter a element" required>
+    <button onclick="addelem()" id="butt">Add element</button>
+    </div>
+    <ul id = "li">
+        
+    </ul>
+    
+    <script>
+
+    function addelem(){
+    
+        let num=document.getElementById("number").value;
+        num=parseInt(number.value);
+        let li=document.getElementById("li");
+        let arr= document.createElement("p");
+        arr.id="ki";
+        arr.textContent=num;
+        li.appendChild(arr);
+        
+        let btn=document.createElement("button");
+        btn.id="but";
+        btn.textContent="Delete";
+        arr.appendChild(btn);
+        btn.addEventListener("click", function () {this.parentNode.remove();});
+             
+}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+body{
+    background-color: bisque;
+}
+#firdiv{
+    color: aliceblue;
+    text-align: center;
+    justify-items: center;
+}
+
+#head{
+  color: black;
+}
+/* From Uiverse.io by csemszepp */ 
+#container {
+  width: 100%;
+  height: 100%;
+  --s: 194px; /* control the size */
+  --c1: #f6edb3;
+  --c2: #acc4a3;
+
+  --_l: #0000 calc(25% / 3), var(--c1) 0 25%, #0000 0;
+  --_g: conic-gradient(from 120deg at 50% 87.5%, var(--c1) 120deg, #0000 0);
+
+  background: var(--_g), var(--_g) 0 calc(var(--s) / 2),
+    conic-gradient(from 180deg at 75%, var(--c2) 60deg, #0000 0),
+    conic-gradient(from 60deg at 75% 75%, var(--c1) 0 60deg, #0000 0),
+    linear-gradient(150deg, var(--_l)) 0 calc(var(--s) / 2),
+    conic-gradient(
+      at 25% 25%,
+      #0000 50%,
+      var(--c2) 0 240deg,
+      var(--c1) 0 300deg,
+      var(--c2) 0
+    ),
+    linear-gradient(-150deg, var(--_l)) #55897c /* third color here */;
+  background-size: calc(0.866 * var(--s)) var(--s);
+}
+
+
+/* From Uiverse.io by Praashoo7 */ 
+#number {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 12px;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+  font-size: medium;
+}
+
+#number:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+
+/* From Uiverse.io by levxyca */ 
+#but {
+  font-size: 10px;
+  color: red;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid red;
+  background: white;
+  box-shadow: 3px 3px black;
+  cursor: pointer;
+  margin: 35px 20px;
+}
+
+#but:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+
+
+
+/* From Uiverse.io by Shakil-Babu */ 
+#butt {
+ background-color: #00BFA6;
+ padding: 10px 40px;
+ color: #fff;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ cursor: pointer;
+ border-radius: 10px;
+ border: 2px dashed #00BFA6;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ transition: .4s;
+ margin: 10px;
+}
+
+#butt span:last-child {
+ display: none;
+}
+
+#butt:hover {
+ transition: .4s;
+ border: 2px dashed #00BFA6;
+ background-color: #fff;
+ color: #00BFA6;
+}
+
+#butt:active {
+ background-color: #87dbd0;
+}
+
+#ki{
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin: 1px;
+  margin-right: 10px;
+  border: #00BFA6;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
